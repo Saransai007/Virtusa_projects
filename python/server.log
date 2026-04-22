@@ -1,0 +1,8 @@
+INFO User logged in successfully
+ERROR Database connection failed
+INFO File uploaded
+FAILED LOGIN attempt from IP 192.168.1.10
+CRITICAL System overheating detected
+INFO Scheduled backup completed
+FAILED LOGIN attempt from IP 192.168.1.11
+ERROR Unable to fetch data

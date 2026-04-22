@@ -76,7 +76,7 @@ public class FinSafe {
 
             if(accounts.containsKey(name)){
                 acc=accounts.get(name);
-                System.out.println("✅ Welcome back, " + name);
+                System.out.println("Welcome back, " + name);
             } 
             else {
                 System.out.print("New user! Enter Initial Balance: ");
@@ -86,7 +86,7 @@ public class FinSafe {
                 acc=new Account(name, balance);
                 accounts.put(name, acc);
 
-                System.out.println("✅ Account created for " + name);
+                System.out.println("Account created for " + name);
             }
             while(true){
                 System.out.println("\n===== FinSafe Menu =====");
@@ -114,7 +114,7 @@ public class FinSafe {
                             break;
 
                         case 3:
-                            System.out.println("💰 Balance: " + acc.getBalance());
+                            System.out.println("Balance: " + acc.getBalance());
                             break;
 
                         case 4:
@@ -122,7 +122,7 @@ public class FinSafe {
                             break;
 
                         case 5:
-                            System.out.println("🔒 Logged out from " + name);
+                            System.out.println("Logged out from " + name);
                             sc.nextLine();
                             break;
 
